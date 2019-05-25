@@ -1,6 +1,6 @@
-# Scene Recognition using Bag of Words approach with SVM optimization
+# Scene Recognition using Bag of Quantized Local Features from Images
 
-The goal of this project is to build a set of visual recognition systems that classify the scene categories. The code can recognize the following image scenes:
+The goal of this project is to build a set of visual recognition systems that classify the images into different scene categories. The code can recognize the following image scenes:
 - Office
 - Kitchen
 - LivingRoom
@@ -57,5 +57,4 @@ This approach gives better results as compared to the first approach.
 This approach uses the BoW features and builds an SVM model for classification. The SVM model is optimized by tuning its hyperparameters, some of which are:
 - lambda: Regularization parameter for SVM which controls the margin of SVM.
 - loss function: The loss functions such as L1, L2, Logistic, HINGE, HINGE2 are considered for optimization. HINGE2 gives the best performance.
-The underlying optimization algorithm is Stochastic Gradient Descent (SGD) and Stochastic Dual Co-ordinate Ascent (SDCA)
 
